@@ -389,7 +389,7 @@ def radio(phrase):
             print (station)
             break
     if conv is not None:
-        say("Tuning into " + conv)
+        # say("Tuning into " + conv)
         vlcplayer.media_manager(station,'Radio')
         vlcplayer.media_player(station)
     else:

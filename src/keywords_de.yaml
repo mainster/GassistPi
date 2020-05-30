@@ -73,6 +73,9 @@ Keywords:
   # Send message vocal to pushbullet
   Send_Message:
     - 'Nachricht senden'
+    - 'Push Nachricht senden'
+    - 'Pusch Nachricht senden'
+    - 'Sende Nachricht'
 
 #Do not change the Dict below
 Dict:

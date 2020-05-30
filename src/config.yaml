@@ -81,7 +81,7 @@ ESP:
 
 #Streaming songs from Gaana.com
 Gaana:
-  Gaana_Control: 'Enabled'
+  Gaana_Control: 'Disabled'
   Playlist:
     # Enter your desired playlists
     - 'https://gaana.com/playlist/gaana-dj-bollywood-top-50-1'
@@ -89,14 +89,10 @@ Gaana:
 
 #Enter your Google Login Credentials
 Gmusicapi:
-  Gmusic_Control: 'Enabled'
-
-#Pushbullet
-Pushbullet:
-  Pushbullet_Control: 'Enabled'
+  Gmusic_Control: 'Disabled'
 
 #API Key for YouTube and Kickstarter Search Engine
-Google_cloud_api_key: "ENTER-YOUR-GOOGLE-CLOUD-API-KEY-HERE"
+Google_cloud_api_key: "AIzaSyA77P6nwnaMY4ueF_l-jvMbopAc2ddEtv8" 
 
 #GPIOS used in the project. Feel free to change in case.
 Gpios:
@@ -156,7 +152,7 @@ Kodi:
 
 #Change you language. Default is english
 Language:
-  Choice: 'en-US'
+  Choice: 'de-DE'
   Language options:
      - 'en-US' #'English'US
      - 'en-GB' #English GB
@@ -185,7 +181,7 @@ Notify_TTS:
 
 #Pushbullet
 Pushbullet:
-  Pushbullet_API_KEY: 'ENTER YOUR PUSHBULLET KEY HERE'
+  Pushbullet_API_KEY: 'o.XmB1TNm3LSdwYsxEM8vwMu1zhfjp3bIe'
   Pushbullet_Control: 'Enabled'
 
 #Radio station declarations. Follow a similar pattern to add your own stations.
@@ -194,14 +190,14 @@ Radio_stations:
   Radio_Control: 'Enabled'
   stationnames:
     - 'Radio 1'
-    - 'Radio 2'
+    - 'Radio progressive house'
     - 'Radio 3'
     - 'Radio 4'
     - 'Radio 5'
     - 'Radio 6'
   stationlinks:
     - 'http://stream.100p.nl/100pctnl.mp3'
-    - 'http://stream.radiocorp.nl/100pnl_feest_mp3'
+    - 'http://hirschmilch.de:7000/progressive.mp3'
     - 'http://playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO.mp3'
     - 'https://stream.slam.nl/slam_mp3'
     - 'http://icecast.omroep.nl/3fm-bb-mp3'
@@ -230,7 +226,7 @@ Speechtotext:
 
 #Spotify credentials. Register for a spotify developer and get the credentials.
 Spotify:
-  Spotify_Control: 'Enabled'
+  Spotify_Control: 'Disabled'
   client_id: 'ENTER YOUR SPOTIFY CLIENT ID HERE'
   client_secret: 'ENTER YOUR SPOTIFY CLIENT SECRET HERE'
   username: 'ENTER YOUR SPOTIFY USERNAME HERE'
@@ -267,6 +263,7 @@ Wakewords:
   Custom_wakeword_models:
     - '/home/pi/GassistPi/src/resources/alexa.umdl'
     - '/home/pi/GassistPi/src/resources/snowboy.umdl'
+    - '/home/pi/GassistPi/mia.umdl'
 
 YouTube:
   YouTube_Control: 'Enabled'
